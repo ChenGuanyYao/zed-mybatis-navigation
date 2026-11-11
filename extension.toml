@@ -1,0 +1,19 @@
+id = "mybatis-navigation"
+name = "MyBatis Navigation"
+version = "0.2.1"
+schema_version = 1
+authors = ["Chenguangyao"]
+description = "Rust-powered navigation between MyBatis Java mappers and XML statements."
+repository = "https://github.com/ChenGuanyYao/zed-mybatis-navigation"
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.mybatis-navigation]
+name = "MyBatis Navigation"
+languages = ["Java", "XML"]
+
+[language_servers.mybatis-navigation.language_ids]
+"Java" = "java"
+"XML" = "xml"
